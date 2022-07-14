@@ -13,7 +13,7 @@ Se tutto è andato a buon fine troverai tra le tue estensioni "Password Generato
 
 La libreria di jQuery è stata caricata localmente
 
-Content Security Policy Can, nelle app di Chrome, i criteri di sicurezza dei contenuti non consentono il codice javascript scritto in linea.
+Content Security Policy, nelle app di Chrome, i criteri di sicurezza dei contenuti non consentono il codice javascript scritto in linea.
 Quindi il codice javascript è in un file .js e viene incluso nell'HTML.
 
 ![img](https://github.com/Elpiu/browser-extension/blob/main/estensionePasswordGenerator/img/screen2.png)
