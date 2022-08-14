@@ -8,3 +8,7 @@ Estensione Browser, visualizza gattini
 
 Api usate
 https://cataas.com/?ref=publicapis.dev#/
+
+![img](./images/img1.jpg)
+
+![img](./images/img2.jpg)
