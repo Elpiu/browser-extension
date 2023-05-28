@@ -1,25 +1,38 @@
-## Estensione Browser, generatore di password a lunghezza variabile
+## Browser Extension, Variable Length Password Generator
+![img](imgRepo/icon256.png)
 
-Pacchetto inizializzatore creato grazie a [Extensionizr](https://extensionizr.com/)
+## Why this extension
+This is simple tool for generating strong and secure passwords.
 
-## How to use
+With this extension, you can easily generate secure and strong passwords. You can choose the length of the password and modify it as desired. Finally, you can copy it with a simple click.
 
-Per aggiungere l'estensione al tuo browser,
-scarica la cartella "estensione PasswordGenerator", vai nelle impostazioni alla voce gestisci estensioni (es. brave://extensions/).
-Fai click su "carica estensione non pacchettizzata" se non compare attiva la modalità sviluppatore e la cartella dell'estensione .
-Se tutto è andato a buon fine troverai tra le tue estensioni "Password Generator"
+Additionally, you will find useful tips to understand the importance of choosing a password.
 
-### Altro
+**This extension was created using the Angular framework and is the new version of the plugin. The old version was created using only JavaScript.**
 
-La libreria di jQuery è stata caricata localmente
+## Download the plugin directly from the Chrome Web Store
 
-Content Security Policy, nelle app di Chrome, i criteri di sicurezza dei contenuti non consentono il codice javascript scritto in linea.
-Quindi il codice javascript è in un file .js e viene incluso nell'HTML.
+TODO
 
-![img](https://github.com/Elpiu/browser-extension/blob/main/estensionePasswordGenerator/img/screen2.png)
+## How you can use the extension locally without downloading it from the Chrome Web Store
 
-### Altri siti di riferimento
+- Download the "Dist" folder and extract the content.
+- Go to your browser's settings and select "Manage extensions" (e.g., brave://extensions/ for Brave browser).
+- Click on "Load unpacked extension" (if this option is not available, you may need to enable developer mode).
+- Choose the "PasswordGenerator" folder that you downloaded earlier.
+- If everything went well, you will find the extension among your installed extensions.
 
-https://www.security.org/how-secure-is-my-password/
+- Note: The steps may vary slightly depending on the browser you are using. Make sure to follow the specific instructions for your browser.
 
-https://haveibeenpwned.com/
+
+
+![img](imgRepo/screenApp.png)
+
+### Other reference sites
+
+- Initialization package [Extensionizr](https://extensionizr.com/)
+- https://www.security.org/how-secure-is-my-password/
+- https://haveibeenpwned.com/
+- A special thanks to this guide that helped me solve the security issue (content security policy directive) https://www.justjeb.com/post/chrome-extension-with-angular-from-zero-to-a-little-hero 
+- Style by [Bootsrap](https://getbootstrap.com/)  and Theme by [Bootswatch](https://bootswatch.com/)
+- Icon by [Icon8](https://icons8.com/), Illustration by [Storyset](https://storyset.com/)

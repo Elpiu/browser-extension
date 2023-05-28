@@ -1,0 +1,28 @@
+<section class=" mt-2 m-2 text-center">
+  <div class="card shadow-2-strong">
+    <div
+      class="text-center mt-2"
+    >
+      <img
+        src="https://avatars.githubusercontent.com/u/49283847?v=4"
+        class="border border-primary rounded-circle shadow-5-strong m-1"
+        alt=""
+        style="width: 140px; height: 140px"
+        aria-controls="#picker-editor"
+      />
+    </div>
+    <div class="card-body">
+      <h5 class="fw-bold">{{dataNameRole.name}}</h5>
+      <p class="fst-italic">{{dataNameRole.role}}</p>
+      <ul class="list-unstyled px-sm-2">
+        <a *ngFor="let i of dataAssetLinks" href="#" (click)="openALink($event, i.link)">
+          <img src="{{i.asset}}" class="p-1 shadow-5-strong rounded-circle"
+          style="width: 50px; height: 50px; "
+          >
+        </a>
+      </ul>
+    </div>
+  </div>
+  <p class="card-text"><small class="text-body-secondary">copyright 2023 EM</small></p>
+
+</section>
