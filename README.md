@@ -12,7 +12,7 @@ Additionally, you will find useful tips to understand the importance of choosing
 
 ## Download the plugin directly from the Chrome Web Store
 
-TODO
+[Chrome web store Password Generator](https://chrome.google.com/webstore/detail/password-generator/fkgkkfikaoogndmnmdffledkcjdffknn/related?hl=it)
 
 ## How you can use the extension locally without downloading it from the Chrome Web Store
 
